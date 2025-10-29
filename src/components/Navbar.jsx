@@ -11,13 +11,13 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         {/* Logo + App Name */}
         <Link to="/" className="flex items-center gap-2 text-xl font-semibold text-gray-900 hover:text-gray-700 transition-colors">
-          <img
+          {/* <img
             src={logo}
             width="30"
             height="30"
             className="inline-block"
             alt={`${appName} logo`}
-          />
+          /> */}
           {appName}
         </Link>
 
@@ -32,14 +32,14 @@ const Navbar = () => {
                 Services
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link 
                 to="/pricing" 
                 className="text-gray-700 hover:text-gray-900 transition-colors"
               >
                 Pricing
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link 
                 to="/about" 
@@ -48,14 +48,14 @@ const Navbar = () => {
                 About Us
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link 
                 to="/consultancy" 
                 className="text-gray-700 hover:text-gray-900 transition-colors"
               >
                 Consultancy
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           {/* Contact Button */}

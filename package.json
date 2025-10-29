@@ -7,7 +7,7 @@
     "dev": "vite --mode development",
     "dev:staging": "vite --mode staging",
     "build": "vite build --mode production",
-    "preview": "vite preview",
+    "preview": "vite preview --port $PORT --host",
     "lint": "eslint ."
   },
   "dependencies": {

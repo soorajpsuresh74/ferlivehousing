@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 const featuresData = [
   {
-    title: "Professional Management",
+    title: "End-to-End Property Management",
     description:
-      "Our team comprises graduates from CET Trivandrum, ensuring a smooth and efficient property management experience.",
+      "From tenant search to rent collection, we handle every aspect of your property management in Trivandrum.",
     moreInfo:
-      "We manage tenant onboarding, rent collection, and maintenance, ensuring full transparency and peace of mind.",
+      "Our local expertise ensures your property stays occupied, maintained, and profitable — without you having to lift a finger.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -25,11 +25,11 @@ const featuresData = [
     ),
   },
   {
-    title: "Hassle-Free Ownership",
+    title: "Tenant Screening & Support",
     description:
-      "We handle everything from finding reliable tenants to managing maintenance, freeing up your valuable time.",
+      "We find reliable tenants through a strict background verification process, ensuring your property is in safe hands.",
     moreInfo:
-      "From tenant screening to legal agreements, Nesture ensures a seamless landlord experience without interruptions.",
+      "Our team verifies employment, rental history, and credentials — so you enjoy steady income and trustworthy tenants.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -48,11 +48,11 @@ const featuresData = [
     ),
   },
   {
-    title: "Investment Protection",
+    title: "Maintenance & Care",
     description:
-      "We prioritize proactive maintenance and regular inspections to safeguard your property's value.",
+      "We manage regular inspections and timely repairs to preserve your property’s value and tenant satisfaction.",
     moreInfo:
-      "Routine inspections and preventive measures reduce major repair costs and extend property longevity.",
+      "Our dedicated maintenance partners respond quickly to any issues, keeping your property in top condition year-round.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -71,11 +71,11 @@ const featuresData = [
     ),
   },
   {
-    title: "Smart Solutions",
+    title: "Transparent Reporting",
     description:
-      "We attract high-quality tenants with innovative marketing strategies to maximize your rental income.",
+      "Get real-time updates on rent payments, maintenance status, and occupancy — anytime, anywhere.",
     moreInfo:
-      "Our smart digital systems optimize tenant communication and automate property tracking for efficiency.",
+      "Our digital dashboard provides full visibility into your property’s performance, giving you confidence and control over your investment.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ const Features = () => {
     <section className="bg-gray-50 py-20 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16 animate-fadeInUp">
-          Features
+          Our Core Features
         </h2>
 
         <div className="flex flex-nowrap gap-8 overflow-x-auto hide-scrollbar py-8 px-4">
@@ -115,20 +115,18 @@ const Features = () => {
               className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 min-w-[280px] flex-1 flex flex-col items-center animate-fadeInUp hover:scale-105"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
-              {/* Icon with pulse animation */}
               <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center text-white mb-6 hover:animate-pulse">
                 {feature.icon}
               </div>
-              
+
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {feature.title}
               </h3>
-              
+
               <p className="text-gray-600 leading-relaxed mb-4">
                 {feature.description}
               </p>
 
-              {/* Expandable Section with smooth transition */}
               {expanded === index && (
                 <div className="text-gray-500 text-sm mb-4 animate-fadeIn">
                   {feature.moreInfo}

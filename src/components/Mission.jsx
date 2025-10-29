@@ -16,7 +16,8 @@ const Mission = () => {
         </h2>
         
         <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-3xl mx-auto">
-          To provide comprehensive and stress-free property management solutions, ensuring your Bangalore Kochi & Trivandrum investment property thrives, even when you can't be there.
+          To deliver hassle-free property rental management in Trivandrum, ensuring your investment grows while you enjoy complete peace of mind.
+          {/* To provide comprehensive and stress-free property management solutions, ensuring your Trivandrum investment property thrives, even when you can't be there. */}
         </p>
       </div>
       
