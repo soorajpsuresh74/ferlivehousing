@@ -3,20 +3,23 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="min-h-screen bg-white flex items-center px-6 md:px-12 lg:px-20 py-16">
-      <div className="max-w-7xl mx-auto w-full flex flex-row gap-8 md:gap-12 lg:gap-20 items-center">
+      {/* <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-20 items-center"> */}
         
         {/* Left Section - Headline area content with animations */}
         <div className="flex-1 space-y-8 animate-fadeInLeft">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold text-teal-900 leading-tight">
-            Relax!! We've got your investment property covered.
+            Your Property, Our Passion. Your Peace of Mind, Our Promise.
           </h1>
           
           <div className="space-y-4">
             <p className="text-gray-700 text-base md:text-lg lg:text-xl leading-relaxed">
-              Nesture provides stress-free property management for landlords. Enjoy maximized rentals, minimized hassle, and exceptional care for your investment.
+              Transform your property into a thriving investment while you focus on what matters most. FerliveHousing delivers premium property management with a personal touch—maximizing your returns while minimizing your worries.
             </p>
             <p className="text-gray-700 text-base md:text-lg lg:text-xl leading-relaxed">
-              Currently operating in Bangalore, Kochi and Trivandrum
+              From tenant screening to maintenance excellence, we handle every detail with care and precision. Currently serving property owners across Bangalore, Kochi, and Trivandrum.
+            </p>
+            <p className="text-teal-700 text-base md:text-lg font-medium italic">
+              "Because your investment deserves more than management—it deserves nurture."
             </p>
           </div>
           
@@ -48,7 +51,7 @@ const Hero = () => {
             />
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };
