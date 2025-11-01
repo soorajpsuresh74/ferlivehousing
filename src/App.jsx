@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import ContactUs from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -31,6 +32,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
+              <Route path="//about" element={<AboutUs />} />
               <Route path="/contactus" element={<ContactUs />} />
             </Routes>
           </>
