@@ -59,7 +59,7 @@ const ThankYou = () => {
           </Link>
           
           <Link
-            to="/contact"
+            to="/contactus"
             className="inline-flex items-center gap-2 bg-white text-teal-600 px-8 py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors shadow-lg hover:shadow-xl border-2 border-teal-600"
           >
             <EnvelopeIcon className="w-5 h-5" />
