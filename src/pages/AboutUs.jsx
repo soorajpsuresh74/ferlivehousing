@@ -52,7 +52,7 @@ const AboutUs = () => {
     {
       name: "Local Knowledge",
       role: "Market Specialists",
-      description: "Deep understanding of Bangalore, Kochi, and Trivandrum property markets.",
+      description: "Deep understanding of Trivandrum property markets.",
     },
     {
       name: "24/7 Support",
@@ -109,7 +109,7 @@ const AboutUs = () => {
             <p className="text-gray-600 text-lg leading-relaxed">
               We've built our company on the principle that exceptional property management 
               combines cutting-edge technology with genuine human touch. Today, we're proud 
-              to serve hundreds of property owners across Bangalore, Kochi, and Trivandrum, 
+              to serve hundreds of property owners across Trivandrum, 
               turning their real estate investments into thriving assets.
             </p>
             <div className="flex items-center gap-3 pt-4">

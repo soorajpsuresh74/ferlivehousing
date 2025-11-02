@@ -16,7 +16,7 @@ const Hero = () => {
               Transform your property into a thriving investment while you focus on what matters most. FerliveHousing delivers premium property management with a personal touch—maximizing your returns while minimizing your worries.
             </p>
             <p className="text-gray-700 text-base md:text-lg lg:text-xl leading-relaxed">
-              From tenant screening to maintenance excellence, we handle every detail with care and precision. Currently serving property owners across Bangalore, Kochi, and Trivandrum.
+              From tenant screening to maintenance excellence, we handle every detail with care and precision. Currently serving property owners across Trivandrum.
             </p>
             <p className="text-teal-700 text-base md:text-lg font-medium italic">
               "Because your investment deserves more than management—it deserves nurture."
