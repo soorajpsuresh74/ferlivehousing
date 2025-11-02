@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/outline";
-import { contactInfo } from '../contactInfo'
+import { contactInfo } from '../contactInfo';
+
 const ContactUs = () => {
-
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -11,15 +10,36 @@ const ContactUs = () => {
     message: "",
   });
 
+  const [status, setStatus] = useState("");
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert(contactInfo.thankYouMessage);
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    
+    try {
+      const response = await fetch("https://formspree.io/f/xpwokdkv", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        alert(contactInfo.thankYouMessage);
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setStatus("error");
+        alert("Oops! There was a problem submitting your form");
+      }
+    } catch (error) {
+      setStatus("error");
+      alert("Oops! There was a problem submitting your form");
+    }
   };
 
   return (
@@ -39,7 +59,7 @@ const ContactUs = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
           
           {/* Contact Details */}
-          <div className="space-y-8 animate-fadeInLeft">
+          <div className="space-y-8">
             <h2 className="text-4xl font-bold text-gray-900">
               {contactInfo.getInTouchTitle}
             </h2>
@@ -64,7 +84,7 @@ const ContactUs = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="animate-fadeInRight">
+          <div>
             <form
               className="space-y-6 bg-gray-50 p-8 rounded-2xl shadow-lg"
               onSubmit={handleSubmit}
@@ -130,9 +150,10 @@ const ContactUs = () => {
 
               <button
                 type="submit"
-                className="bg-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-500 transition-colors"
+                disabled={status === "submitting"}
+                className="bg-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-500 transition-colors disabled:opacity-50"
               >
-                Send Message
+                {status === "submitting" ? "Sending..." : "Send Message"}
               </button>
             </form>
           </div>
