@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet"; // <-- added
 import splashImage from "./assets/ferlivehousingcom-high-resolution-logo.png";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -21,6 +22,21 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <Helmet>
+        <title>Ferlive Housing – Property Rental Management in Trivandrum</title>
+        <meta
+          name="description"
+          content="Ferlive Housing provides hassle-free property rental management and tenant services in Trivandrum."
+        />
+        <meta property="og:title" content="Ferlive Housing – Property Rental Management in Trivandrum" />
+        <meta
+          property="og:description"
+          content="Ferlive Housing provides hassle-free property rental management and tenant services in Trivandrum."
+        />
+        <meta property="og:url" content="https://www.ferlivehousing.com/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <div className="overflow-x-hidden">
         {showSplash ? (
           <div className="splash-screen">
