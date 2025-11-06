@@ -42,14 +42,14 @@ const Hero = () => {
             />
           </div>
           
-          {/* Frame 2 - Front image with delayed animation */}
+          {/* Frame 2 - Front image with delayed animation
           <div className="absolute right-0 top-20 sm:top-24 md:top-32 lg:top-40 w-48 h-64 sm:w-56 sm:h-72 md:w-64 md:h-80 lg:w-80 lg:h-[450px] rounded-2xl overflow-hidden shadow-xl animate-fadeInUpDelay">
             <img
               src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80"
               alt="Modern living room interior"
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
             />
-          </div>
+          </div> */}
         </div>
       {/* </div> */}
     </section>
