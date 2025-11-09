@@ -1,39 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ferlivehousing.com/</loc>
-    <lastmod>2025-11-06</lastmod>
+    <lastmod>2025-11-09</lastmod>
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
-
   <url>
     <loc>https://www.ferlivehousing.com/services</loc>
-    <lastmod>2025-11-06</lastmod>
+    <lastmod>2025-11-09</lastmod>
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
-
   <url>
     <loc>https://www.ferlivehousing.com/about</loc>
-    <lastmod>2025-11-06</lastmod>
+    <lastmod>2025-11-09</lastmod>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
-
   <url>
     <loc>https://www.ferlivehousing.com/contactus</loc>
-    <lastmod>2025-11-06</lastmod>
+    <lastmod>2025-11-09</lastmod>
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
-
   <url>
     <loc>https://www.ferlivehousing.com/thankyou</loc>
-    <lastmod>2025-11-06</lastmod>
+    <lastmod>2025-11-09</lastmod>
     <priority>0.50</priority>
     <changefreq>yearly</changefreq>
   </url>
