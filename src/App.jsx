@@ -23,7 +23,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>Ferlive Housing – Property Rental Management in Trivandrum</title>
+        <title>FertliveHousing.com - Your Property, Our Passion | Property Management Trivandrum</title>
         <meta
           name="description"
           content="Ferlive Housing provides hassle-free property rental management and tenant services in Trivandrum."
