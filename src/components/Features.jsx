@@ -75,7 +75,7 @@ const featuresData = [
     description:
       "Get real-time updates on rent payments, maintenance status, and occupancy — anytime, anywhere.",
     moreInfo:
-      "Our digital dashboard provides full visibility into your property’s performance, giving you confidence and control over your investment.",
+      "Our team provides full visibility into your property’s performance, giving you confidence and control over your investment.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
