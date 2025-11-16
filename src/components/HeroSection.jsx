@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           
           <a 
-            href="/contact" 
+            href="/contactus" 
             className="inline-block bg-gray-900 text-white px-6 py-3 md:px-8 md:py-4 rounded-lg hover:bg-gray-800 hover:scale-105 transition-all duration-300 font-semibold text-sm md:text-base"
           >
             Reach out to Us
