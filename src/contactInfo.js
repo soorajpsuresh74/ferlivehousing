@@ -1,6 +1,6 @@
 export const contactInfo = {
   companyName: "FerliveHousing",
-  address: "Visakom, Trivandrum, India",
+  address: "Dotspace, Kenz Avenue,TC 98/3629, Attipra, Kazhakuttam, Thiruvananthapuram,Kerala, India – 695582",
   phone: "+91 9633245053",
   email: "support@ferlivehousing.com",
   mapEmbedUrl:
