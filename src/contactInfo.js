@@ -6,7 +6,7 @@ export const contactInfo = {
   email: "support@ferlivehousing.com",
 
   mapEmbedUrl:
-    "https://www.google.com/maps?q=8.581221277349577,76.86406897829855&output=embed",
+    "https://maps.app.goo.gl/G8S2iTAaB1RfPmQEA",
 
   heroTitle: "Contact Us",
   heroSubtitle:
