@@ -123,7 +123,7 @@ const AboutUs = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-teal-900">
+      {/* <section className="py-16 bg-teal-900">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -136,7 +136,7 @@ const AboutUs = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Our Values */}
       <section className="py-20 px-6 md:px-12 lg:px-20 bg-gray-50">
